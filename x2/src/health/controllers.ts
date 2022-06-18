@@ -12,6 +12,6 @@ export class HealthController {
   }
 
   public setRoutes() {
-    this.router.get("/", this.healthProvider.healthCheck);
+    this.router.get("/", this.healthProvider.checkHealth);
   }
 }
